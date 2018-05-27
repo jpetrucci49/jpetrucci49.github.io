@@ -153,8 +153,9 @@ function textChange(ref){
 		text = "";
 		height = "1801";
 	}
+	height = Number(height) + 20;
 	txt.innerHTML = txt.textContent = txt.value = text;
-	obj.style.height = height + 'px';
+	obj.style.height = height +'px';
 	obj.setAttribute("height", height);
 }
 
