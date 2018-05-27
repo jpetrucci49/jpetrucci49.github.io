@@ -128,76 +128,6 @@ p {
     line-height: 25px; 
 }
 
-/* ==========================================================================
-   PRICE SECTION
-   ========================================================================== */
-#price-section {
-     background-color: #FAFAFA;
-}
-
-/* PRICE TABLES */
-
-.pricing {
-    padding-bottom: 40px;
-}
-.pricing .pricing-head {
-    position: relative;
-    background: #917CFC;
-    color: #ffffff;
-    text-align: center;
-    font-weight: bold;
-    padding: 50px 20px 20px 20px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.special .pricing-head {
-    background: black;
-}
-.pricing .price {
-    display: inline-block;
-    position: relative;
-}
-.pricing .price sup {
-    position: absolute;
-    top: 50px;
-    left: -10px;
-    font-size: 24px;
-}
-.pricing .price .price-amount {
-    font-size: 108px;
-    letter-spacing: -4px;
-}
-.pricing .price small {
-    position: relative;
-    left: -10px;
-    font-size: 18px;
-}
-.pricing ul {
-    list-style: none;
-    margin: 0;
-    background: #eee;
-    text-align: center;
-    padding-left: 0px;
-}
-.pricing ul li {
-    border-bottom: solid 1px #e1e1e1;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.pricing .pricing-grab {
-    display: block;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 20px 12px;
-    color: #FFFFFF;
-    background: #23B687;
-}
-.backcolor-li {
-    background-color:#B1D9F3;
-}
-
 /*==========================================
    PORTFOLIO VERSIONS BUTTONS
     =====================================================*/
@@ -265,6 +195,14 @@ p {
 .sidenav a:hover{
 	background-color: #222;
 	border-bottom: none;
+}
+.navContainer{
+	margin: 0;
+	padding: 0;
+}
+.iFCont{
+	margin: 0;
+	padding: 0;
 }
 .sticky{
 	position: fixed;
