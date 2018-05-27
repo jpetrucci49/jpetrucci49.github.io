@@ -50,6 +50,53 @@ jQuery(function($) {
 			}
 		}
     });
+	
+	function after_form_submitted(data){
+		if(data.result == 'success'){
+			$('form#formSub').hide();
+			$('#success_message').show();
+			$('#error_message').hide();
+		}else{
+			$('#error_message').append('<ul></ul>');
+
+			jQuery.each(data.errors,function(key,val){
+				$('#error_message ul').append('<li>'+key+':'+val+'</li>');
+			});
+			
+			$('#success_message').hide();
+			$('#error_message').show();
+			//reverse the response on the button
+			$('button[type="button"]', $form).each(function(){
+				$btn = $(this);
+				input = $btn.prop('orig_input');
+				if(input){
+					$btn.prop('type','submit' );
+					$btn.text(input);
+					$btn.prop('input','');
+				}
+			});
+		}//else
+	}
+	$('#submit').submit(function(e){
+		e.preventDefault();
+
+		$form = $(this);
+		//show some response on the button
+		$('button[type="submit"]', $form).each(function(){
+			$btn = $(this);
+			$btn.prop('type','button' );
+			$btn.prop('orig_input',$btn.text());
+			$btn.text('Sending ...');
+		});
+		$.ajax({
+			type: "POST",
+			url: 'handler.php',
+			data: $form.serialize(),
+			success: after_form_submitted,
+			dataType: 'json'
+		});
+
+	});
 	/*
 	$("#submit").click(function(e) {
 		e.preventDefault();
@@ -63,9 +110,8 @@ jQuery(function($) {
 			data:'dataString',
 			mimeTypes: "text/plain",
 			url: $(form).attr('action'),
-			success:function(data) {
-				alert(data);
-			}
+			success: after_form_submitted,
+			dataType: 'json'
 		});
 	});
 	
