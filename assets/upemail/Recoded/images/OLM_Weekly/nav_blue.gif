@@ -1,0 +1,254 @@
+<html>
+<head>
+
+
+<title>Upromise - Page Cannot Be Found</title>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<link rel="stylesheet" href="/css/global.css" type="text/css">
+
+<link rel="stylesheet" type="text/css" 
+ href="https://lty.s.upromise.com/css/navbar.css">
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+
+ <div id="header">  
+ 
+  <script src="/js/removeRU.js"></script>
+  
+  
+  
+ 
+  <div id="upNavNoscript" class="upNavNoscript">
+   <ul>
+    <li><a href="https://lty.s.upromise.com/linkto/welcome?cm_re=v1|-_-Unknown|Unknown-_-/welcome">Upromise home page</a></li>
+    <li><a href="http://shop.upromise.com/?cm_re=v1|-_-Unknown|Unknown-_-/&olmsrc=L">Coupon Codes</a></li>
+    <li><a href="http://shop.upromise.com/mall/special-offers?cm_re=v1|-_-Unknown|Unknown-_-/mall/special-offers&olmsrc=L">Online Coupons</a></li>
+    <li><a href="http://shop.upromise.com/mall/free-shipping?filterBy=onlySpecialsWithFreeShipping&cm_re=v1|-_-Unknown|Unknown-_-/mall/free-shipping?filterBy=onlySpecialsWithFreeShipping&olmsrc=L">Free Shipping</a></li>
+    <li><a href="http://shop.upromise.com/mall/weekly-deals?cm_re=v1|-_-Unknown|Unknown-_-/mall/weekly-deals&olmsrc=L">Hot Deals</a></li>
+    <li><a href="http://shop.upromise.com/mall/all-stores?cm_re=v1|-_-Unknown|Unknown-_-/mall/all-stores&olmsrc=L">View All Partners</a></li>
+    <li><a href="https://lty.s.upromise.com/linkto/welcome/what-is-upromise?cm_re=v1|-_-Unknown|Unknown-_-/welcome/what-is-upromise">What is Upromise</a></li>
+    <li><a href="https://lty.s.upromise.com/linkto/welcome/how-it-works?cm_re=v1|-_-Unknown|Unknown-_-/welcome/how-it-works">How it Works</a></li>
+    <li><a href="/parters">Where to Earn</a></li>
+    <li><a href="http://www.529.com/">529 Plan</a></li>
+    <li><a href="https://lty.s.upromise.com/linkto/earn/turbosaver/turbosaver-download?cm_re=v1|-_-Unknown|Unknown-_-/earn/turbosaver/turbosaver-download">Upromise TurboSaver</a></li>
+    <li><a href="/partner/ecouponLandingRedirect.do">Grocery eCoupons</a></li>
+    <li><a href="/community">Upromise Community</a></li>
+    <li><a href="/secure/login.do">Upromise Login</a></li>
+   </ul>
+  </div>
+  <!-- Added for TOP Nav header SEO changes -->
+   
+  <noscript>
+  <div style='display:none;'>
+  <ul>
+    <li><a href="/secure/login.do?cm_re=VisitorNav-_-L0-_-SignIn">SignIn</a></li>
+    <li><a href="/linkto/welcome?cm_re=V1-_-header|gblMenus-_-/welcome">Home</a></li>
+    <li><a href="/linkto/welcome?cm_re=V1-_-header|gblMenus-_-/welcome">UpromiseLogo</a></li>
+    <li><a href="/linkto/welcome/what-is-upromise?cm_re=V1-_-header|gblMenus-_-/what-is-upromise">What Is Upromise?</a></li>
+    <li><a href="/linkto/welcome/how-it-works?cm_re=V1-_-header|gblMenus-_-/how-it-works">How it Works</a></li>
+    <li><a href="/meet-our-partners.do?cm_re=VisitorNav-_-L1-_-WheretoEarn">Where to Earn</a></li>
+    <li><a href="http://shop.upromise.com/mall/coupons?cm_re=VisitorNav-_-L1-_-CouponsDeals&olmsrc=L">Coupons & Deals</a></li>
+   <li><a href="http://shop.upromise.com/?cm_re=VisitorNav-_-L1-_-ShopNow&olmpos=navbar&olmsrc=L">Shop Now</a></li>
+  </ul>
+ </div>
+</noscript>
+
+ <!-- Added for TOP Nav header SEO changes -->
+  <script type="text/javascript">
+ 	var inEnrollment = false;
+ 	var upNavLtyUrl = (window.location.href.indexOf('preview.upromise.com') != -1) ? '' : 'http://www.upromise.com';
+ 	var upNavLtySecureUrl = (window.location.href.indexOf('preview.upromise.com') != -1) ? '' : 'https://lty.s.upromise.com';
+ 	var upNavLtySecureCdnUrl = (window.location.href.indexOf('preview.upromise.com') != -1) ? '' : 'https://lty.s.upromise.com';
+ 	
+ 	var upNavOlmUrl = (window.location.href.indexOf('preview-shop') != -1) ? '' : 'http://shop.upromise.com';
+ 	var upNavOlmSecureUrl = (window.location.href.indexOf('preview-shop') != -1) ? '' : 'https://shop.upromise.com';
+ 	var upNavOlmSecureCdnUrl = (window.location.href.indexOf('preview-shop') != -1) ? '' : 'https://shop.upromise.com'; 	
+
+	var upNavTridUrl = (window.location.href.indexOf('preview-web') != -1) ? '' : 'http://www.upromise.com';
+ 	var upNavTridSecureUrl = (window.location.href.indexOf('preview-web') != -1) ? '' : 'https://www.upromise.com';
+
+  </script>
+ 
+  
+  
+   
+	  <div id="upNav">
+	  	<div id="UP001_holder" style="display:none">
+	  		<script type='text/javascript'>sas.call('std', { siteId:73044, pageId:572418, formatId:33745, target:''});</script> <noscript> <a href='https://smart.upromise.com/ac?jump=1&nwid=1350&siteid=73044&pgname=upromise_page&fmtid=33745&visit=m&tmstp=1512358766431&out=nonrich' target='_blank'><img src='https://smart.upromise.com/ac?out=nonrich&nwid=1350&siteid=73044&pgname=upromise_page&fmtid=33745&visit=m&tmstp=1512358766431' border='0' alt='' /></a></noscript>
+	  	</div>
+	  </div>
+      <script type="text/javascript"
+        src="https://lty.s.upromise.com/js/navbar.js"></script>
+  
+ 
+ </div> 
+ 
+
+
+<div id="pageWrap">
+ <div id="contentWrap" class="fullWidth">
+  <h1>page cannot be found</h1>
+  
+  <p> 
+   Sorry -- we cannot locate the page you requested.
+  </p>
+  <p>
+   Our <a href="/">home page</a> offers links to other sections that might help 
+   you find what you're looking for.
+  </p>
+  <p>
+   Note: If you have a bookmark that is not working, try going to our 
+   <a href="/">home page</a>, navigating to the
+   page you want, and setting up a new bookmark.
+  </p>
+ </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+ <div id="upFooterNoscript" class="upNavNoscript">
+  <ul>
+   <li><a href="/facebook">Upromise on Facebook</a></li>
+   <li><a href="/twitter">Upromise on Twitter</a></li>
+   <li><a href="/aboutupromise">About Upromise</a></li>
+   <li><a href="https://lty.s.upromise.com/linkto/welcome/details/privacy?cm_re=v1|-_-Unknown|Unknown-_-/welcome/details/privacy">Privacy Policy</a></li>
+   <li><a href="https://lty.s.upromise.com/linkto/welcome/details/terms-and-conditions?cm_re=v1|-_-Unknown|Unknown-_-/welcome/details/terms-and-conditions">Terms and Condtions</a></li>
+   <li><a href="https://lty.s.upromise.com/linkto/welcome/details/security?cm_re=v1|-_-Unknown|Unknown-_-/welcome/details/security">Site Security</a></li>
+   <li><a href="/member/help/contactUs.do">Contact Us</a></li>
+   <li><a href="https://lty.s.upromise.com/linkto/welcome/corporate/careers?cm_re=v1|-_-Unknown|Unknown-_-/welcome/corporate/careers">Careers</a></li>
+   <li><a href="https://lty.s.upromise.com/linkto/welcome/corporate/partner-network?cm_re=v1|-_-Unknown|Unknown-_-/welcome/corporate/partner-network">Partnership Opportunities</a></li>
+   <li><a href="https://lty.s.upromise.com/linkto/welcome/corporate/affiliate-advertisers?cm_re=v1|-_-Unknown|Unknown-_-/welcome/corporate/affiliate-advertisers">Affiliate Program</a></li>
+   <li><a href="/secure/partners/upcc/cardCenterMain.do?scKey=site_globalfoot_link">Upromise Credit Cards</a></li>
+    <li><a href="http://shop.upromise.com/?cm_re=v1|-_-Unknown|Unknown-_-/&olmsrc=L">Coupon Codes</a></li>
+    <li><a href="http://shop.upromise.com/mall/special-offers?cm_re=v1|-_-Unknown|Unknown-_-/mall/special-offers&olmsrc=L">Online Coupons</a></li>
+   <li><a href="http://shop.upromise.com/mall/rss?cm_re=v1|-_-Unknown|Unknown-_-/mall/rss&olmsrc=L">Upromise RSS</a></li>
+  </ul>
+ </div>
+ 
+ <!-- Added for TOP Nav SEO changes -->
+<div style='display:none;'>
+<noscript>
+<ul>
+ <li>Popular Shopping Categories</li>
+  <li><a href="http://shop.upromise.com/mall/category/apparel-all?cm_re=v2|MHP-_-Footer|Popular Categories-_-Apparel&olmpos=GlobalNav&olmsrc=L">Apparel</a> </li>
+ <li><a href="http://shop.upromise.com/mall/category/electronics-all?cm_re=v2|MHP-_-Footer|Popular Categories-_-Electronics&olmpos=GlobalNav&olmsrc=L">Electronics</a> </li>
+ <li><a href="http://shop.upromise.com/mall/category/books-music-movies?cm_re=v2|MHP-_-Footer|Popular Categories-_-Books & Music&olmpos=GlobalNav&olmsrc=L">Books & Music</a> </li>
+ <li><a href="http://shop.upromise.com/mall/category/flowers-all?cm_re=v2|MHP-_-Footer|Popular Categories-_-Flowers&olmpos=GlobalNav&olmsrc=L">Flowers</a> </li>
+ <li><a href="http://shop.upromise.com/mall/category/gift-cards?cm_re=v2|MHP-_-Footer|Popular Categories-_-Gift Cards&olmpos=GlobalNav&olmsrc=L">Gift Cards</a> </li>
+ <li><a href="http://shop.upromise.com/mall/category/healthbeauty-all?cm_re=v2|MHP-_-Footer|Popular Categories-_-HealthBeauty&olmpos=GlobalNav&olmsrc=L">Health & Beauty</a> </li>
+ <li><a href="http://shop.upromise.com/mall/category/sportsrecreation-all?cm_re=v2|MHP-_-Footer|Popular Categories-_-SportsRec&olmpos=GlobalNav&olmsrc=L">Sports & Recreation</a> </li>
+ <li><a href="http://shop.upromise.com/mall/category/toys-games?cm_re=v2|MHP-_-Footer|Popular Categories-_-ToysGames&olmpos=GlobalNav&olmsrc=L">Toys & Games</a> </li>
+ <li><a href="http://shop.upromise.com/mall/category/travel-all?cm_re=v2|MHP-_-Footer|Popular Categories-_-Travel&olmpos=GlobalNav&olmsrc=L">Travel</a> </li>
+ <li><a href="/local-retailers-services?cm_re=v2|MHP-_-Footer|Popular Categories-_-Local">Local Retailers & Services</a></li>
+</ul>
+
+<ul>
+ <li>Popular Online Stores</li> 
+ <li><a href="http://shop.upromise.com/mall/merchant/apple?cm_re=v2|MHP-_-Footer|Popular Stores-_-Apple&olmpos=GlobalNav&olmsrc=L">Apple Store</a> </li>
+  <li><a href="http://shop.upromise.com/mall/merchant/barnesandnoble?cm_re=v2|MHP-_-Footer|Popular Stores-_-BarnesNoble&olmpos=GlobalNav&olmsrc=L">Barnes & Nobles</a> </li>
+  <li><a href="http://shop.upromise.com/mall/merchant/bestbuy?cm_re=v2|MHP-_-Footer|Popular Stores-_-BestBuy&olmpos=GlobalNav&olmsrc=L">Best Buy</a> </li>
+  <li><a href="http://shop.upromise.com/mall/merchant/kohls?cm_re=v2|MHP-_-Footer|Popular Stores-_-Kohls&olmpos=GlobalNav&olmsrc=L">Kohls</a> </li>
+  <li><a href="http://shop.upromise.com/mall/merchant/llbean?cm_re=v2|MHP-_-Footer|Popular Stores-_-LLBean&olmpos=GlobalNav&olmsrc=L">L.L. Bean</a> </li>
+  <li><a href="http://shop.upromise.com/mall/merchant/overstock?cm_re=v2|MHP-_-Footer|Popular Stores-_-Overstock&olmpos=GlobalNav&olmsrc=L">Overstock</a> </li>
+  <li><a href="http://shop.upromise.com/mall/merchant/staples?cm_re=v2|MHP-_-Footer|Popular Stores-_-Staples&olmpos=GlobalNav&olmsrc=L">Staples</a> </li>
+  <li><a href="http://shop.upromise.com/mall/merchant/target?cm_re=v2|MHP-_-Footer|Popular Stores-_-Target&olmpos=GlobalNav&olmsrc=L">Target</a> </li>
+  <li><a href="http://shop.upromise.com/mall/merchant/toysrus?cm_re=v2|MHP-_-Footer|Popular Stores-_-ToysRUs&olmpos=GlobalNav&olmsrc=L">Toys R Us</a> </li>
+  <li><a href="http://shop.upromise.com/mall/merchant/walmart?cm_re=v2|MHP-_-Footer|Popular Stores-_-Walmart&olmpos=GlobalNav&olmsrc=L">Walmart</a> </li>
+ </ul>
+  <ul>
+  <li>Helpful Links</li> 
+  <li><a href="http://shop.upromise.com/mall/new-stores?cm_re=v2|MHP-_-Footer|HelpfulLinks-_-NewStores&olmpos=GlobalNav&olmsrc=L">New Stores</a> </li>
+    <li><a href="http://shop.upromise.com/mall/free-shipping?filterBy=onlySpecialsWithFreeShipping&cm_re=v2|MHP-_-Footer|HelpfulLinks-_-FreeShipping&olmpos=GlobalNav&olmsrc=L">Free Shipping</a> </li>
+    <li><a href="http://shop.upromise.com/mall/special-offers?cm_re=v2|MHP-_-Footer|HelpfulLinks-_-CouponsDeals&olmpos=GlobalNav&olmsrc=L">Coupons & Deals</a> </li>
+    <li><a href="http://shop.upromise.com/mall/mobile?cm_re=v2|MHP-_-Footer|HelpfulLinks-_-UpromiseMobile&olmpos=GlobalNav&olmsrc=L">Upromise Mobile</a> </li>
+    <li><a href="/wwwcollegeanswer?cm_re=v2|MHP-_-Footer|HelpfulLinks-_-CollegeAnswer">CollegeAnswer.com</a> </li>
+   </ul>
+   
+   <ul>
+ <li>Company Information</li> 
+  <li><a href="/aboutupromise?cm_re=v2|MHP-_-Footer|CompanyInfo-_-AboutUP">About Upromise</a></li>
+   <li><a href="/member/help/contactUs.do?cm_re=v2|MHP-_-Footer|CompanyInfo-_-Contact">Contact Us</a></li>
+   <li><a href="/careers-footer?cm_re=v2|MHP-_-Footer|CompanyInfo-_-Careers">Careers</a></li>
+   <li><a href="/linkto/welcome/corporate/partner-network?cm_re=v2|MHP-_-Footer|CompanyInfo-_-Partnerships">Partnership Opportunities</a></li>
+   <li><a href="/linkto/welcome/corporate/affiliate-advertisers?cm_re=v2|MHP-_-Footer|CompanyInfo-_-Affiliate">Affiliate Program</a></li>
+  </ul>
+  
+   <ul>
+   <li>Connect with Upromise</li> 
+   <li><a href="/facebook?cm_re=v2|MHP-_-Footer|Connect-_-Facebook">Facebook</a></li>
+   <li><a href="/twitter?cm_re=v2|MHP-_-Footer|Connect-_-Twitter">Twitter</a></li>
+   <li><a href="http://shop.upromise.com/linkto/mall/rss?cm_re=v2|MHP-_-Footer|Connect-_-RSS&olmsrc=L">RSS</a></li>
+   <li><a href="/youtube?cm_re=v2|MHP-_-Footer|Connect-_-YouTube">YouTube</a> </li>
+   <li><a href="/communityBlogs?cm_re=v2|MHP-_-Footer|Connect-_-Blogs">Blogs</a></li>
+   <li><a href="/secure/9003.do?cm_re=v2|MHP-_-Footer|Connect-_-TellaFriend">Tell a Friend</a></li>
+   </ul>
+ 
+   <ul>
+   <li>SallieMae® Products</li> 
+   <li><a href="/member/studentLoans.do?cm_re=v2|MHP-_-Footer|SLMproducts-_-StudentLoans">Student Loans</a></li>
+   <li><a href="/wwwSlmCreditCard?cm_re=v2|MHP-_-Footer|SLMproducts-_-CreditCards">Credit Cards</a></li>
+   <li><a href="/member/savingsAccount.do?cm_re=v2|MHP-_-Footer|SLMproducts-_-SavingsAccounts">Savings Accounts</a></li>
+   <li><a href="/member/collegePlans.do?cm_re=v2|MHP-_-Footer|SLMproducts-_-529Plans">529 College Savings Plans</a> </li>
+   <li><a href="/wwwcollegeanswer?cm_re=v2|MHP-_-Footer|HelpfulLinks-_-CollegeAnswer">CollegeAnswer.com</a> </li>
+   </ul>
+ </noscript>
+</div>
+ <!-- Added for TOP Nav SEO changes -->
+ 
+ 
+<!-- Smart Ad Collector Tag -->
+ <script type='text/javascript'>sas.call('std', { siteId:73044, pageId:572418, formatId:33877, target:'page=upromise_page;'});</script> <noscript> <a href='https://smart.upromise.com/ac?jump=1&nwid=1350&siteid=73044&pgname=upromise_page&fmtid=33877&visit=m&tmstp=1512358766432&out=nonrich' target='_blank'><img src='https://smart.upromise.com/ac?out=nonrich&nwid=1350&siteid=73044&pgname=upromise_page&fmtid=33877&visit=m&tmstp=1512358766432' border='0' alt='' /></a></noscript>
+ 
+ <div id="upFooter"></div>
+  <!-- BEGIN: Opinmind Tag -->
+  
+  <!-- END -->
+ <script type="text/javascript" 
+    src="https://lty.s.upromise.com/js/footer.js"></script>
+</div>
+<script>var _csAcctID = 14248319; </script>
+<script type="text/javascript" src="/js/csgather.js"></script>
+
+
+<!-- SiteCatalyst code version: H.15.1. Copyright 1997-2008 Omniture, Inc. More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="https://lty.s.upromise.com/js/omniture/s_code.js"></script> 
+<script language="JavaScript" type="text/javascript">
+<!--/* You may give each page an identifying name, server, and channel on  the next lines. */
+s.pageName="";
+s.channel="upromise";
+s.pageType="errorPage";
+s.prop2=document.URL;
+s.events="event5";
+s.prop35="404 Error";
+var s_code=s.t();if(s_code)document.write(s_code)//--></script><script language="JavaScript" type="text/javascript"><!--if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')//--></script><noscript><a href="http://www.omniture.com" title="Web Analytics"><img src="https://102.112.2O7.net/b/ss/salliemaeupromise/1/H.15.1--NS/0" height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/--><!-- End SiteCatalyst code version: H.15.1. -->
+
+</body>
+</html>
