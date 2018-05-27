@@ -1,9 +1,6 @@
 <?php include_once("index.html"); ?>
 <?php
-// define variables and set to empty values
-$name = $email = $message = "";
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	function test_input($data) {
 		$data = trim($data);
 		$data = stripslashes($data);
@@ -13,10 +10,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$name = test_input($_POST["name"]);
 	$email = test_input($_POST["email"]);
 	$message = test_input($_POST["message"]);
+	$to = "jpetrucci49@yahoo.com";
+	$subject = "Message from form submit";
+	$header = "From: $email\r\n";
+	$thankYou = "Thank you for your submission";
+	$reply = "I appreciate your feedback, I will be in reply shortly.";
+	$replyHeader = "From: $to\r\n";
 	
-	$myfile = fopen("form.txt", "w") or die("Unable to open file!");
-	$txt = 'Message from: ' . $name . ' \r\n' . 'Email Address: ' . $email . ' \r\n' . 'Message: \r\n' . $message; exit;
-	fwrite($myfile, $txt);
+	mail($to,$subject,$message,$header);
+	mail($email,$thankYou,$reply,$replyHeader);
+	
+	$mylog = fopen("./assets/log/form.txt", "a") or die("Unable to open file!");
+	$txt = 'Message from: ' . $name . ' \r\n' . 'Email Address: ' . $email . ' \r\n' . 'Message: \r\n' . $message . '\r\n\r\n'; exit;
+	fwrite($mylog, $txt);
 	fclose($myfile);
-}
 ?>

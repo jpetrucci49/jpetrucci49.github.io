@@ -50,7 +50,7 @@ jQuery(function($) {
 			}
 		}
     });
-	
+	/*
 	$("#submit").click(function(e) {
 		e.preventDefault();
 		var form = $('#formSub');
