@@ -11,7 +11,7 @@
 	if (empty($_POST['user_email']))
 		$errors['user_email'] = 'Email is required.';
 	if (empty($_POST['user_msg']))
-		$errors['user_msg'] = 'Superhero alias is required.';
+		$errors['user_msg'] = 'Message is required.';
 
 // return a response ===========================================================
 // if there are any errors in our errors array, return a success boolean of false
@@ -29,11 +29,11 @@
 		
 		$name = $_POST['user_name'];
 		$email = $_POST['user_email'];
-		$message = $_POST['user_msg'];
+		$user_msg = $_POST['user_msg'];
 
 		$to = "jpetrucci49@yahoo.com";
 		$subject = "Form submission:";
-		$body = "Name: ".$name."\nEmail: ".$email."\nMessage: ".$message;
+		$body = "Name: ".$name."\nEmail: ".$email."\nMessage: ".$user_msg;
 		$headers = "From: " . $email;
 
 	}
