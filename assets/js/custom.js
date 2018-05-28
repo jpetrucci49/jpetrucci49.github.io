@@ -61,7 +61,7 @@ jQuery(function($) {
 		var name = $("#name").val();
 		var email = $("#email").val();
 		var message = $("#msg").val();
-		var dataString = "name=" + name + "&email=" + email + "&message=" + msg;
+		var dataString = "name=" + name + "&email=" + email + "&message=" + message;
 		$.ajax({
 			type: "POST",
 			url: "insert.php",
