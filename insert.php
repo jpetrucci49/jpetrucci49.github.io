@@ -1,15 +1,68 @@
 <?php include_once("index.html"); ?>
+
 <?php
-$name = $_POST['user_name'];
-$email = $_POST['user_email'];
-$message = $_POST['user_msg'];
+if(isset($_POST['email'])){
+	// EDIT THE 2 LINES BELOW AS REQUIRED
+	$email_to = "jpetrucci49@yahoo.com";
+	$email_subject = "Form submission:";
 
-$to = "jpetrucci49@yahoo.com";
-$subject = "Form submission:";
-$body = "Name: ".$name."\nEmail: ".$email."\nMessage: ".$message;
-$headers = "From: " . $email;
+	function died($error) {
+		// your error code can go here
+		echo "We are very sorry, but there were error(s) found with the form you submitted. ";
+		echo "These errors appear below.<br /><br />";
+		echo $error."<br /><br />";
+		echo "Please go back and fix these errors.<br /><br />";
+		die();
+	}
+	
+	// validation expected data exists
+	if(!isset($_POST['user_name']) ||
+	!isset($_POST['user_email']) ||
+	!isset($_POST['user_msg'])){
+		died('We are sorry, but there appears to be a problem with the form you submitted.');       
+	}
 
-//send email
-mail($to, $subject, $body, $headers);
+	$first_name = $_POST['user_name']; // required
+	$email_from = $_POST['user_email']; // required
+	$comments = $_POST['user_msg']; // required
 
+	$error_message = "";
+	$email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+ 
+	if(!preg_match($email_exp,$email_from)) {
+		$error_message .= 'The Email Address you entered does not appear to be valid.<br />';
+	}
+
+	$string_exp = "/^[A-Za-z .'-]+$/";
+ 
+	if(!preg_match($string_exp,$first_name)) {
+		$error_message .= 'The name you entered does not appear to be valid.<br />';
+	}
+
+	if(strlen($comments) < 2) {
+		$error_message .= 'The message you entered do not appear to be valid.<br />';
+	}
+
+	if(strlen($error_message) > 0) {
+		died($error_message);
+	}
+
+	$email_message = "Form details below.\n\n";
+
+	function clean_string($string) {
+		$bad = array("content-type","bcc:","to:","cc:","href");
+		return str_replace($bad,"",$string);
+	}
+
+	$email_message .= "Name: ".clean_string($first_name)."\n";
+	$email_message .= "Email: ".clean_string($email_from)."\n";
+	$email_message .= "Message: ".clean_string($comments)."\n";
+
+	// create email headers
+	$headers = 'From: '.$email_from."\r\n".
+	'Reply-To: '.$email_from."\r\n" .
+	'X-Mailer: PHP/' . phpversion();
+	@mail($email_to, $email_subject, $email_message, $headers);  
+}
 ?>
+ 
