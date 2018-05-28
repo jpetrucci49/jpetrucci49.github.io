@@ -50,6 +50,34 @@ jQuery(function($) {
 			}
 		}
     });
+	
+	$("#frmemail").submit(function(event){
+		// cancels the form submission
+		event.preventDefault();
+		submitForm();
+	});
+	function submitForm(){
+		// Initiate Variables With Form Content
+		var name = $("#name").val();
+		var email = $("#email").val();
+		var message = $("#msg").val();
+		var dataString = "name=" + name + "&email=" + email + "&message=" + msg;
+		$.ajax({
+			type: "POST",
+			url: "insert.php",
+			data: dataString,
+			success : function(text){
+				if (text == "success"){
+					formSuccess();
+				}
+			}
+		});
+	}
+	function formSuccess(){
+		$('#frmemail').hide();
+		$('#success_message').show();
+		$('#error_message').hide();
+	}
 /*
 	$(document).ready(function() {
 		$('#frmemail').submit(function(event) {
@@ -110,11 +138,11 @@ jQuery(function($) {
 			dataType: 'json'
 		});
 	});
-	*/
+	
 	// magic.js
 	$(document).ready(function() {
 		// process the form
-		$('form').submit(function(event) {
+		$('#frmemail').submit(function(event) {
 			// stop the form from submitting the normal way and refreshing the page
 			event.preventDefault();
 			// get the form data

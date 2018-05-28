@@ -1,14 +1,32 @@
 <?php include_once("index.html"); ?>
 <?php
-$name = $_POST['user_name'];
-$email = $_POST['user_email'];
-$message = $_POST['user_msg'];
-
-$to = "jpetrucci49@yahoo.com";
-$subject = "Form submission:";
-$body = "Name: ".$name."\nEmail: ".$email."\nMessage: ".$message;
-$headers = "From: " . $email;
-
-//send email
-mail($to, $subject, $body, $headers);
+	$name = $_POST["name"];
+	$email = $_POST["email"];
+	$message = $_POST["msg"];
+	 
+	$EmailTo = "jpetrucci49@yahoo.com";
+	$Subject = "New Message Received:";
+	 
+	// prepare email body text
+	$Body .= "Name: ";
+	$Body .= $name;
+	$Body .= "\n";
+	 
+	$Body .= "Email: ";
+	$Body .= $email;
+	$Body .= "\n";
+	 
+	$Body .= "Message: ";
+	$Body .= $message;
+	$Body .= "\n";
+	 
+	// send email
+	$success = mail($EmailTo, $Subject, $Body, "From:".$email);
+	 
+	// redirect to success page
+	if ($success){
+		echo "success";
+	}else{
+		echo "invalid";
+	} 
 ?>
