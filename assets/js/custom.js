@@ -50,7 +50,7 @@ jQuery(function($) {
 			}
 		}
     });
-
+/*
 	$(document).ready(function() {
 		$('#frmemail').submit(function(event) {
 			$.ajax({
@@ -64,10 +64,10 @@ jQuery(function($) {
 		})
 	});
 	
-	/*
+	*/
 	function after_form_submitted(data){
 		if(data.result == 'success'){
-			$('form#formSub').hide();
+			$('#frmemail').hide();
 			$('#success_message').show();
 			$('#error_message').hide();
 		}else{
@@ -82,16 +82,16 @@ jQuery(function($) {
 			//reverse the response on the button
 			$('button[type="button"]', $form).each(function(){
 				$btn = $(this);
-				input = $btn.prop('orig_input');
-				if(input){
+				label = $btn.prop('orig_label');
+				if(label){
 					$btn.prop('type','submit' );
-					$btn.text(input);
-					$btn.prop('orig_input','');
+					$btn.text(label);
+					$btn.prop('orig_label','');
 				}
 			});
 		}//else
 	}
-	$('#reused_form').submit(function(e){
+	$('#frmemail').submit(function(e){
 		e.preventDefault();
 
 		$form = $(this);
@@ -104,13 +104,14 @@ jQuery(function($) {
 		});
 		$.ajax({
 			type: "POST",
-			url: 'handler.php',
+			url: 'insert.php',
 			data: $form.serialize(),
 			success: after_form_submitted,
 			dataType: 'json'
 		});
 
 	});
+	/*
 	$("#submit").click(function(e) {
 		e.preventDefault();
 		var form = $('#formSub');
