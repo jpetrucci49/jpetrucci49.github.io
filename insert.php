@@ -1,7 +1,6 @@
 <?php include_once("index.html"); ?>
 
 <?php
-if(isset($_POST['email'])){
 	// EDIT THE 2 LINES BELOW AS REQUIRED
 	$email_to = "jpetrucci49@yahoo.com";
 	$email_subject = "Form submission:";
@@ -11,7 +10,6 @@ if(isset($_POST['email'])){
 	$comments = $_POST['user_msg']; // required
 
 	$email_message = "Form details below.\n\n";
-
 	$email_message .= "Name: ".$first_name."\n";
 	$email_message .= "Email: ".$email_from."\n";
 	$email_message .= "Message: ".$comments."\n";
@@ -19,7 +17,6 @@ if(isset($_POST['email'])){
 	// create email headers
 	$headers = 'From: '.$email_from."\r\n".
 	'Reply-To: '.$email_from."\r\n";
-	@mail($email_to, $email_subject, $email_message, $headers);  
-}
+	mail($email_to, $email_subject, $email_message, $headers);
 ?>
  
