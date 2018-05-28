@@ -64,7 +64,7 @@ jQuery(function($) {
  
     $.ajax({
         type: "POST",
-        url: "php/form-process.php",
+        url: "./insert.php",
         data: "name=" + name + "&email=" + email + "&message=" + message,
         success : function(text){
             if (text == "success"){
