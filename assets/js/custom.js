@@ -50,7 +50,21 @@ jQuery(function($) {
 			}
 		}
     });
+
+	$(document).ready(function() {
+		$('#frmemail').submit(function(event) {
+			$.ajax({
+				type: 'POST',
+				url: 'insert.php',
+				data: $('#frmemail').serialize(),
+				success: function() {
+					$('.success').fadeIn(1000)
+				}
+			})
+		})
+	});
 	
+	/*
 	function after_form_submitted(data){
 		if(data.result == 'success'){
 			$('form#formSub').hide();
@@ -72,12 +86,12 @@ jQuery(function($) {
 				if(input){
 					$btn.prop('type','submit' );
 					$btn.text(input);
-					$btn.prop('input','');
+					$btn.prop('orig_input','');
 				}
 			});
 		}//else
 	}
-	$('#submit').submit(function(e){
+	$('#reused_form').submit(function(e){
 		e.preventDefault();
 
 		$form = $(this);
@@ -85,7 +99,7 @@ jQuery(function($) {
 		$('button[type="submit"]', $form).each(function(){
 			$btn = $(this);
 			$btn.prop('type','button' );
-			$btn.prop('orig_input',$btn.text());
+			$btn.prop('orig_label',$btn.text());
 			$btn.text('Sending ...');
 		});
 		$.ajax({
@@ -97,7 +111,6 @@ jQuery(function($) {
 		});
 
 	});
-	/*
 	$("#submit").click(function(e) {
 		e.preventDefault();
 		var form = $('#formSub');
