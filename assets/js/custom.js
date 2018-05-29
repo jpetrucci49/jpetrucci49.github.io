@@ -32,6 +32,10 @@ jQuery(function($) {
         }
     });
 	
+	/*========================================== 
+	IFRAME SIDENAV STICKY SCROLL
+	=====================================================*/
+
 	$(document).scroll(function(){
 		var menu = $('.sidenav');
 		var menuOffset = $('.topPlaceholder').offset();
@@ -51,7 +55,7 @@ jQuery(function($) {
 		}
     });
 
-    /*==========================================
+   /*==========================================
    SCROLL REVEL SCRIPTS
    =====================================================*/
 
@@ -65,7 +69,7 @@ jQuery(function($) {
 
 });
 
-/*==========================================
+	/*==========================================
     SIDENAV AND VERSION BTN ACTIVE CLASS
     =====================================================*/
 
@@ -216,33 +220,6 @@ window.onload = function(){
 	document.getElementById('iFCont').src = './assets/upemail/Recoded/20070806_OLM_WEEKLY_32.html';
 };
 
-/*========================================== 
-IFRAME SIDENAV STICKY SCROLL
-=====================================================
-
-//get position of sidenav
-function getPos(el) {
-    // yay readability
-    for (var lx=0, ly=0;
-         el != null;
-         lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
-    return {x: lx,y: ly};
-}
-var menu = document.querySelector('.sidenav');
-var menuPosition = getPos(menu);
-var container = document.querySelector('.navContainer');
-var menuTop = menuPosition.y - 120;
-window.addEventListener('scroll', function(){
-	var containerHeight = container.getBoundingClientRect().height;
-	console.log('menuTop = ' + menuTop);
-	console.log('pageYOffset = ' + window.pageYOffset);
-    if(window.pageYOffset >= menuTop && window.pageYOffset < menuTop + containerHeight - menuPosition.height - 100){
-        menu.classList.add('sticky');
-		menu.style.width = menuPosition.width + 'px';
-    }else if(window.pageYOffset < menuTop || window.pageYOffset >= menuTop + containerHeight - menuPosition.height - 100) {
-        menu.classList.remove('sticky');
-    }
-});
 /*========================================== 
 IFRAME SOURCE FORMAT REDIRECT
 =====================================================*/
