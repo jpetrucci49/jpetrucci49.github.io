@@ -41,11 +41,11 @@ jQuery(function($) {
 		var menuOffset = $('.topPlaceholder').offset();
 		var container = $('.navContainer');
 		var menuWidth = $('.topPlaceholder').width();
-		$('.sticky').css({'width': menuWidth + 'px', 'margin-left': $('shell').left + 'px'});
-		menu.css({'width': menuWidth + 'px', 'margin-left': $('shell').left + 'px'});
+		$('.sticky').css({'width': menuWidth + 'px', 'margin-left': $('.shell').left + 'px'});
+		menu.css({'width': menuWidth + 'px', 'margin-left': $('.shell').left + 'px'});
 		if(window.pageYOffset >= menuOffset.top - 50 && window.pageYOffset < menuOffset.top + container.height() - menu.height() - 100){
 			if(menuWidth < 400 && menu.hasClass('sticky') == false && $(window).width() > 500){
-				menu.addClass('sticky').css({});
+				menu.addClass('sticky');
 			}	
 		console.log('placeholder width - ' + menuWidth);
 		}else if(window.pageYOffset < menuOffset.top - 50 || window.pageYOffset >= menuOffset.top + container.height() - menu.height() - 100){
@@ -107,39 +107,39 @@ function textChange(ref){
 	var text, height;
 	if(ref === "OLMW"){
 		text = "In OLM Weekly, the side bar with 'My favorites' and 'recommendations' were dynamic user based code.";
-		height = "1801";
+		height = 1801;
 	}else if(ref === "TP"){
 		text = "In Travel Portal, the powers that be wished to experiment with mimicking buttons with html.";
-		height = "1419";
+		height = 1419;
 	}else if(ref === "OLMM"){
 		text = "In OLM Monthly, the main body format and savings offers were dynamic with customer shopping trends. Particularly, the P.S. section only displayed for customers, who indeed hadn't shopped previously.";
-		height = "2170";
+		height = 2170;
 	}else if(ref === "OLMMvC"){
 		text = "In OLM Monthly version C, the main body format and savings offers were dynamic with customer shopping trends. Particularly, the P.S. section only displayed for customers, who indeed hadn't shopped previously.";
-		height = "2264";
+		height = 2264;
 	}else if(ref === "UPS"){
 		text = "The Upromise Scholarship campaign was targeted to customers who had recently enrolled in credit rewards.";
-		height = "1030";
+		height = 1030;
 	}else if(ref === "DvB"){
 		text = "In Dining Program version B, we dynamically retrieved the name of the customer, as well as restaurants participating nearby.";
-		height = "1119";
+		height = 1119;
 	}else if(ref === "DvC"){
 		text = "In Dining Program version C, the customer withheld their name. However, their location was shared. As such, restaurants participating nearby displayed.";
-		height = "1215";
+		height = 1215;
 	}else if(ref === "UPT"){
 		text = "The Upromise Toolbar campaign was a promotional add-on for Mozilla and IE browsers.";
-		height = "1091";
+		height = 1091;
 	}else if(ref === "BCSvA"){
 		text = "Bonus College Savings month version A was directed to customers who regularly shop with Upromise.";
-		height = "1320";
+		height = 1320;
 	}else if(ref === "BCSvB"){
 		text = "Bonus College Savings month version B was directed to customers who were new to shopping with Upromise. As such, There were some additional directions provided.";
-		height = "1400";
+		height = 1400;
 	}else{
 		text = "";
-		height = "1801";
+		height = 1801;
 	}
-	height = Number(height) + 50;
+	height += 50;
 	txt.innerHTML = txt.textContent = txt.value = text;
 	obj.style.height = height +'px';
 	obj.setAttribute("height", height);
