@@ -47,7 +47,6 @@ jQuery(function($) {
 			if(menuWidth < 400 && menu.hasClass('sticky') == false && $(window).width() > 500){
 				menu.addClass('sticky');
 			}	
-		console.log('placeholder width - ' + menuWidth);
 		}else if(window.pageYOffset < menuOffset.top - 50 || window.pageYOffset >= menuOffset.top + container.height() - menu.height() - 100){
 			if(menu.hasClass('sticky') == true){
 				menu.removeClass('sticky');
