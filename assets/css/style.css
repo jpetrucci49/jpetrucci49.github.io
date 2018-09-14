@@ -6,20 +6,20 @@
 
     100% To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
+
     ========================================================  */
 /* ===========================================================
-   GENERAL STYLESHEET BY BYINARY THEME    
+   GENERAL STYLESHEET BY BYINARY THEME
    ============================================================*/
 
 /* ===========================================================
-   GENERAL STYLES   
+   GENERAL STYLES
    ============================================================*/
 body {
     font-family:'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #000;   
+    color: #000;
     margin-top: 40px;
     line-height: 25px;
 }
@@ -32,10 +32,10 @@ h1 {
     font-weight: 700;
 }
 .text-center {
-    text-align: center; 
+    text-align: center;
 }
 .main-top-margin {
-    margin-top: 75px;
+    margin-top: 30px;
 }
 .main-low-margin {
     margin-top: 55px;
@@ -87,7 +87,7 @@ p {
 	text-align:center;
 	background-position: center center;
 	min-height: 700px;
-	width: 100%;	
+	width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -125,7 +125,7 @@ p {
 }
 #about-section blockquote{
 	text-align: left;
-    line-height: 25px; 
+    line-height: 25px;
 }
 
 /*==========================================
@@ -233,7 +233,7 @@ p {
 }
 
 /* ===========================================================
-   BOOTSTRAP ELEMENTS CHANGES   
+   BOOTSTRAP ELEMENTS CHANGES
    ============================================================*/
 .navbar {
 	font-weight: 800;
@@ -254,7 +254,7 @@ p {
 	letter-spacing: 2px;
 }
 .navbar-inverse :hover .navbar-brand:hover {
-	color: #29FF00;	
+	color: #29FF00;
 }
 .navbar-inverse .navbar-nav > li > a {
 	color: #FFFFFF;
@@ -270,15 +270,14 @@ p {
 /* ==========================================================================
    FOOTER SECTION
    ========================================================================== */
-   
+
 #footer {
-    background-color: #2F11C4; 
-    color: #fff; 
-    text-align: right; 
+    background-color: #2F11C4;
+    color: #fff;
+    text-align: right;
     padding: 10px 30px 10px 30px;
 }
 
 /* ==========================================================================
    MEDIA QURIES
    ========================================================================== */
-   
