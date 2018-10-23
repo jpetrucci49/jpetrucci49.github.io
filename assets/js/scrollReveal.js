@@ -238,7 +238,7 @@ window.scrollReveal = (function (window) {
   //  ie. 'move 25px from top' starts at 'top: -25px' in CSS.
 
       if (enter === 'top' || enter === 'left') {
-        if (!typeof parsed.move === 'undefined') {
+        if (typeof parsed.move !== 'undefined') {
           parsed.move = '-' + parsed.move
         } else {
           parsed.move = '-' + this.options.move
