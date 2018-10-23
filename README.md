@@ -11,4 +11,4 @@ https://jpetrucci49.github.io
 ## Repo
 
 It can be viewed here at:
-https://github.com/jpetrucci49/portfolio
+https://github.com/jpetrucci49/jpetrucci49.github.io
